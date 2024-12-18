@@ -1,4 +1,4 @@
-body {
+.page {
   background-color: #f8f8f8;
   color: #333;
   font-family: "Lato", sans-serif;
@@ -101,17 +101,17 @@ body {
 }
 
 /* Completed */
-ul#completed-tasks label {
+#completed-tasks label {
   text-decoration: line-through;
   color: #888;
 }
 
-li.editMode .task_change {
+.editMode .task_change {
   display: inline-block;
   width: 224px;
 }
 
-li.editMode .list__label {
+.editMode .list__label {
   display: none;
 }
 
