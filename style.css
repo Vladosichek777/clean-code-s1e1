@@ -95,23 +95,18 @@
   width: 226px;
 }
 
-.list_completed {
-  text-decoration: line-through;
-  color: #888;
-}
-
 /* Completed */
-#completed-tasks label {
+.list_completed label {
   text-decoration: line-through;
   color: #888;
 }
 
-.editMode .task_change {
+.list__item_edit .task_change {
   display: inline-block;
   width: 224px;
 }
 
-.editMode .list__label {
+.list__item_edit .list__label {
   display: none;
 }
 
